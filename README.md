@@ -1,7 +1,7 @@
 # MODEX
 
 Hi All,
-Welcome to the ModEx GitHub! We will primarily use "issues" to facilitate communication between modelers and empiricists for data transfer, experiment development, publication development, etc. You can find short descriptions of each of our models here:
+Welcome to the ModEx Repo! We will primarily use "issues" to facilitate communication between modelers and empiricists for data transfer, experiment development, publication development, etc. You can find short descriptions of each of our models here:
 https://docs.google.com/document/d/1Rkuh_DK-_vIrgO1Y-d-sLJac0exxP6RTeGGy40_wXSk/edit
 
 And a spreadsheet of all of the data that will be collected here:
