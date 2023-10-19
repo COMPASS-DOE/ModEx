@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Dataset
+        ## Dataset Information
   - type: input
     id: contact
     attributes:
@@ -13,9 +13,13 @@ body:
     validations:
       required: true
   - type: textarea
-    id: improvements
+    id: description
     attributes:
       label: Description
+      value: |
+       Description...
+       Caveats...
+       ...
       description:
       render: bash
     validations:
@@ -24,7 +28,7 @@ body:
     id: timeframe
     attributes:
       label: Timeframe
-      description: What is the timeframe of the data
+      description: What is the timeframe of the dataset?
     validations:
       required: true
   - type: dropdown
