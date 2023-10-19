@@ -9,7 +9,7 @@ body:
     id: contact
     attributes:
       label: Contact
-      description: [Name] [Email]
+      description: "[Name] [Email]"
     validations:
       required: true
   - type: textarea
