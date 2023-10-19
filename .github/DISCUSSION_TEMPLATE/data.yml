@@ -29,12 +29,12 @@ body:
       description: What is the timeframe of the data
     validations:
       required: true
-- type: dropdown
-  id: qc
-  attributes:
-    label: Has this data been quality controlled?
-    options:
+  - type: dropdown
+    id: qc
+    attributes:
+      label: Has this data been quality controlled?
+      options:
       - Yes
       - No
-  validations:
-    required: true
+    validations:
+      required: true
