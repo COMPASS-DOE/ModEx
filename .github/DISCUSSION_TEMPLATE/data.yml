@@ -1,36 +1,35 @@
-title: "[New Data] "
-labels: ["New Data"]
+title: "[Dataset Name] "
+labels: ["data"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
-    attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
-  - type: markdown
+  - type: Dataset Description
     attributes:
       value: |
         ## Markdown header
         And some more markdown
+  - type: textarea
+    id: dataset-description
+    attributes:
+      label: Describe the new dataset
+      value: |
+ 
+      render: bash
+  - type: markdown
+    attributes:
+      value: |
+        ### The thrilling conclusion
+        _to our template_
+  - type: markdown
+    attributes:
+      value: |
+        ## Data specifications
   - type: input
     id: has-id
     attributes:
-      label: Suggestions
+      label: Timeframe
       description: A description about suggestions to help you
     validations:
       required: true
-  - type: dropdown
+  - type: Ecosystem Component
     id: download
     attributes:
       label: Which area of this project could be most improved?
@@ -48,8 +47,4 @@ body:
         - label: This one!
           required: true
         - label: I won't stop you if you check this one, too
-  - type: markdown
-    attributes:
-      value: |
-        ### The thrilling conclusion
-        _to our template_
+
