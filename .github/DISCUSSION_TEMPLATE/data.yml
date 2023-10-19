@@ -1,16 +1,15 @@
-title: "[General] "
-labels: ["General Introduction"]
+title: "[Dataset Name] "
+labels: ["data"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Markdown header
-        And some more markdown
+        ## Dataset
   - type: input
-    id: has-id
+    id: contact
     attributes:
       label: Contact
-      description: A description about suggestions to help you
+      description: [Name] [Email]
     validations:
       required: true
   - type: textarea
